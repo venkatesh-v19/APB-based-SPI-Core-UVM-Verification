@@ -1,0 +1,30 @@
+package pkg;
+
+	import uvm_pkg::*; 
+	`include "uvm_macros.svh"
+	
+	`include "spi_agent_config.sv"
+	`include "spi_transaction.sv"
+	`include "spi_sequencer.sv"
+	`include "spi_sequence.sv"
+	`include "spi_driver.sv"
+	`include "spi_monitor.sv"
+	`include "spi_agent.sv"
+	`include "spi_agent_top.sv"
+
+	`include "apb_agent_config.sv"
+	`include "apb_transaction.sv"
+	`include "apb_sequencer.sv"
+	`include "apb_sequence.sv"
+	`include "apb_driver.sv"
+	`include "apb_monitor.sv"
+	`include "apb_agent.sv"
+	`include "apb_agent_top.sv"
+
+	`include "scoreboard.sv"
+	`include "env_config.sv"
+	`include "virtual_sequencer.sv"
+	`include "virtual_sequence.sv"
+	`include "env.sv"
+	`include "test.sv"
+endpackage
